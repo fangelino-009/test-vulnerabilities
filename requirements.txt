@@ -12,3 +12,4 @@ cffi
 # - Mypy relies on C API features not present in PyPy
 mypy==0.910; platform_python_implementation != "PyPy"
 
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
